@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile and run leetcode",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/C",
+        "g++ -std=c++17 \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}\" && \"${fileDirname}\\${fileBasenameNoExtension}\" < \"C:\\Cpp\\.vscode\\input.txt\" > \"C:\\Cpp\\.vscode\\output.txt\""
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

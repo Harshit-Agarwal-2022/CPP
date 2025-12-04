@@ -1,0 +1,138 @@
+DSA TOPICS TO STUDY
+
+1.FOUNDATIONS
+Time and space complexity
+Big O notation
+Recursion
+Iteration vs recursion
+Hash tables and hashing basics
+
+2.ARRAYS
+Array traversal
+Searching
+Prefix sum
+Sliding window
+Two pointers
+Kadane algorithm
+Sorting basics
+
+3.STRINGS
+Character arrays vs strings
+Two pointer techniques
+Substrings and subsequences
+String hashing basics
+Anagram problems
+Palindrome problems
+
+4.HASHMAP AND HASHSET
+Frequency map
+Checking existence
+Counting pairs
+Using map with custom keys
+unordered_map usage
+
+5.LINKED LIST
+Singly linked list
+Fast and slow pointers
+Cycle detection
+Middle element
+Reverse a linked list
+Merge two sorted lists
+Intersection of lists
+
+6.STACKS
+Next greater element
+Valid parentheses
+Monotonic stack
+Expression evaluation
+
+7.QUEUES
+Queue basics
+Deque
+Circular queue
+Monotonic queue
+
+8.TREES
+DFS traversals: preorder, inorder, postorder
+BFS traversal (level order)
+Height and diameter
+Balanced tree
+Invert binary tree
+Lowest common ancestor
+Path sum problems
+Binary search trees (BST)
+Insert, delete, search in BST
+
+9.HEAPS AND PRIORITY QUEUES
+Min heap
+Max heap
+Heapify
+K largest or smallest elements
+Merge k sorted lists
+Priority queue with custom comparator
+
+10.GRAPHS
+Graph representations
+DFS
+BFS
+Connected components
+Cycle detection
+Bipartite graph
+Topological sort
+Shortest path algorithms (Dijkstra, Bellman Ford)
+Minimum spanning tree (Kruskal, Prim)
+Union Find (Disjoint Set)
+Path compression and union by rank
+
+11.DYNAMIC PROGRAMMING
+DP on arrays
+DP on subsequences
+Longest increasing subsequence
+Longest common subsequence
+Edit distance
+Knapsack problems
+DP on grids
+DP on trees
+Bitmask DP
+
+12.GREEDY ALGORITHMS
+Activity selection
+Interval scheduling
+Merging intervals
+Minimum platforms
+Greedy vs DP comparison
+
+13.TRIES
+Insert and search
+Prefix queries
+Word dictionary
+Autocomplete style problems
+
+14.ADVANCED OPTIONAL
+Segment tree
+Fenwick tree
+KMP algorithm
+Z algorithm
+Suffix array
+LCA using binary lifting
+Mo algorithm
+
+15.MOST IMPORTANT FOR INTERVIEWS
+Arrays
+Strings
+HashMap and HashSet
+Sliding window
+Two pointers
+Linked list
+Binary trees
+DFS and BFS
+Dynamic programming basics
+Heaps
+Basic graph algorithms
+
+16.OPTIONAL BUT VERY USEFUL
+Tries
+Union Find
+Topological sort
+Greedy algorithms
+Bitmask DP
