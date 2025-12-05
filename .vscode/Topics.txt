@@ -1,11 +1,11 @@
 DSA TOPICS TO STUDY
 
 1.FOUNDATIONS
-Time and space complexity
-Big O notation
-Recursion
-Iteration vs recursion
-Hash tables and hashing basics
+Time and space complexity ^/
+Big O notation ^/
+Recursion ^/
+Iteration vs recursion ^/
+Hash tables and hashing basics 
 
 2.ARRAYS
 Array traversal
