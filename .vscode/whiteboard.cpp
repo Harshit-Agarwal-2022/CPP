@@ -30,23 +30,49 @@ int numberOfSubarrays(vector<int>& nums, int k)
             }
         }
     }
+    
     */
-
+    
+         
+    
+       
     // M2 O(n)
+    
+    int l = 0, r = 0, curSum = 0;
+    
+    while(r<nums.size())
+    {
+        curSum += nums[r]%2;
+        r++;
 
-    int i=0;
-    int j = i+1;
-    if(nums.size()!=1){
+        if(curSum == k)
+        {
+            res++;
+        }
+        
+        while(curSum>k)
+        {
+            curSum -= nums[l]%2;
+            l++;
+            
+            if(curSum == k)
+            {
+                res++;
+            }
+            
+        }
     }
     
+   
+
     return res;
 }
 
 int main()
 {
     
-    vector<int> nums = {1,1,1,1,1};
-    int k = 1;
+    vector<int> nums = {2,2,2,1,2,2,1,2,2,2};
+    int k = 2;
     
     cout<<"nice subarrays = "<<numberOfSubarrays(nums,k);
     
