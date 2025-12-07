@@ -33,7 +33,7 @@ int numberOfSubarrays(vector<int>& nums, int k)
     
     */
     
-         
+
     
        
     // M2 O(n)
@@ -74,7 +74,9 @@ int main()
     vector<int> nums = {2,2,2,1,2,2,1,2,2,2};
     int k = 2;
     
-    cout<<"nice subarrays = "<<numberOfSubarrays(nums,k);
+    // cout<<"nice subarrays = "<<numberOfSubarrays(nums,k);
+
+    cout<<"hello world";
     
     return 0;
 }

@@ -5,8 +5,8 @@ int numSubarraysWithSum(vector<int>& nums, int goal);
 
 int main()
 {
-    vector<int> nums = {0,0,0,0,0};
-    int goal = 0;
+    vector<int> nums = {1,1,1,1,1,1};
+    int goal = 1;
 
     cout<<numSubarraysWithSum(nums,goal);
     
@@ -17,9 +17,9 @@ int main()
 
 int numSubarraysWithSum(vector<int>& nums, int goal) {
 
-    // int res = 0;
+    int res = 0;
 
-    /* 
+    
 
     // M1 Brute Force O(n^3) 
 
@@ -41,27 +41,9 @@ int numSubarraysWithSum(vector<int>& nums, int goal) {
         }
     }
     
-     */
+    
 
     
-    
-    // M2 Optimised approach sliding window (O n)
-    
-    unordered_map<int,int> freq;
-
-    freq[0] = 1;          
-
-    int sum = 0, ans = 0;
-
-    for(int x : nums) {
-        sum += x;
-
-        if(freq.count(sum - goal))
-            ans += freq[sum - goal];
-
-        freq[sum]++;
-    }
-       
-    return ans;
+    return res;
     
 }
