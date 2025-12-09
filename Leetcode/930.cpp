@@ -9,8 +9,6 @@ int main()
     int goal = 0;
 
     cout<<numSubarraysWithSum(nums,goal);
-    
-    // cout<<"hello world w2";
 
     return 0;
 }
