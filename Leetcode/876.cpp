@@ -39,6 +39,7 @@ public:
 };
 
 int main() {
+    
     // Build linked list: 1 -> 2 -> 3 -> 4 -> 5
     ListNode* head = new ListNode(1);
     ListNode* cur = head;
@@ -52,13 +53,6 @@ int main() {
 
     if (mid) cout << mid->val << '\n';
 
-    // Cleanup (optional for short-lived program)
-    // cur = head;
-    // while (cur) {
-    //     ListNode* nxt = cur->next;
-    //     delete cur;
-    //     cur = nxt;
-    // }
-
+    
     return 0;
 }
