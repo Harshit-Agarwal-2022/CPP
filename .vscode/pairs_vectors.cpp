@@ -15,10 +15,14 @@ void displayVector(vector<int> &v)
 
 int main()
 {
+
     vector<int> v(5,7);    
 
     displayVector(v);
 
+    pair<string, int> student = {"alfred", 01}; 
+
+    cout<<student.first<<"->"<<student.second<<endl;
     /*
     Important notes
 
