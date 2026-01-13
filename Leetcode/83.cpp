@@ -46,51 +46,42 @@ void printList(ListNode *head)
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-    vector<int> v1;
+    
     ListNode* temp = head;
-        
      
     while(temp!=nullptr)
     {
 
-
         if(temp->next!=nullptr && temp->next->val == temp->val)
         {
+            ListNode *t1 = temp;
             while(temp->next!=nullptr && temp->next->val == temp->val)
-            {  
+            {
                 temp = temp->next;
             }
 
-            temp = temp->next;
-
+            t1->next = temp->next;
             continue;
         }
 
         else
-        {
-            v1.push_back(temp->val);
-            temp = temp->next;
-
-        }
+        temp = temp->next;
 
 
     }
-        return vectorToList(v1);
+        return head;
     }
 };
 
 int main()
 {
     
-    vector<int> v1 = {1,2,2,3,4,4,5};
-    ListNode* head = vectorToList(v1);   
+    vector<int> v1 = {1,2,3,4,4,5};
+    ListNode* head = vectorToList(v1);    
     printList(head);
-    
-    Solution sol = Solution();
-    
-    printList(sol.deleteDuplicates(head));
 
-
-    return 0;
+    Solution sol;
+    sol.deleteDuplicates(head);
+    printList(head);
 
 }
