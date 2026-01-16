@@ -52,62 +52,46 @@ void printList(ListNode *head)
 
 class Solution {
 public:
-    ListNode* rotateRight(ListNode* head, int k) {
-        if(!head) return head;
-
+    int getDecimalValue(ListNode* head) {
+        
         ListNode* temp = head;
         int size = 0;
-        int swap = 0;
-        int save = 0;
-
+        int res = 0;
+        
         while(temp!=nullptr)
-        {   
-            if(temp->next == nullptr)
-            swap = temp->val;
-
+        {
             size++;
-            temp=temp->next;
+            temp = temp->next;
         }
+
+        size--;
+
         temp = head;
 
-        if(size == 1)
-        return head;
-
-        int rotate = k%size;
-
-        while(rotate)
+        while(temp!=nullptr)
         {
-            cout<<"rotated"<<endl;
-            while(temp!=nullptr)
+            if(temp->val == 1)
             {
-                save = temp->val;
-                temp->val = swap;
-
-                if(temp->next!=nullptr)
-                swap = save;
-                
-                temp = temp->next;
-    
+                res += pow(2,size);
             }
-            temp = head;
-            rotate--;
+
+            size--;
+            temp = temp->next;
         }
 
-        return head;
-        
-        
+        return res;
     }
 };
 
 int main()
 {
     
-    vector<int> v1 = {0,1,2};
+    vector<int> v1 = {1,1,0,1};
     ListNode* head = vectorToList(v1);
     printList(head);
-    
+
     Solution sol;
-    printList(sol.rotateRight(head,4));
+    cout<<sol.getDecimalValue(head)<<endl;
 
     return 0;
 

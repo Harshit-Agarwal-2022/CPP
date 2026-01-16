@@ -77,7 +77,6 @@ public:
 
         while(rotate)
         {
-            cout<<"rotated"<<endl;
             while(temp!=nullptr)
             {
                 save = temp->val;
