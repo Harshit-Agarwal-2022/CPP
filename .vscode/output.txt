@@ -1,3 +1,2 @@
-0 1 2 
-rotated
-2 0 1 
+unique elements : 2
+2

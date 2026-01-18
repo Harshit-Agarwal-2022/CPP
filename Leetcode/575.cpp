@@ -54,8 +54,6 @@ int main()
     cout<<sol.distributeCandies(v1)<<endl;
     
     
-
-    
     return 0;
 
 }
