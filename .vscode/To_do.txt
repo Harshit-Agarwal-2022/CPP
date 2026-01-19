@@ -1,0 +1,10 @@
+1. problem 3814 (1 hr)
+    🎯 Binary Search ✅
+    🎯 understand Dry run of code and how algo is working ✅
+    🎯 submit code ✅
+
+2. Revise below patterns (2-3 hrs)
+    🎯 Two pointers
+    🎯 Sliding Window
+    🎯 Prefix sum
+    🎯 Kadane's Algo 

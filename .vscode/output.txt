@@ -1,10 +1,1 @@
-a is a lowercase alphabet
-b is a lowercase alphabet
-c is a lowercase alphabet
-A is a uppercase alphabet
-B is a uppercase alphabet
-C is a uppercase alphabet
-9 is a digit
-8 is a digit
-2 is a digit
-9 is a digit
+8
