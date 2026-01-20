@@ -1,10 +1,36 @@
-1. problem 3814 (1 hr)
-    🎯 Binary Search ✅
-    🎯 understand Dry run of code and how algo is working ✅
-    🎯 submit code ✅
+📚DSA
 
-2. Revise below patterns (2-3 hrs)
-    🎯 Two pointers
-    🎯 Sliding Window
-    🎯 Prefix sum
-    🎯 Kadane's Algo 
+    1. problem 3814 (1 hr)
+        🎯 Binary Search ✅
+        🎯 understand Dry run of code and how algo is working ✅
+        🎯 submit code ✅
+
+    2. Revise below patterns (2-3 hrs)
+        🎯 Two pointers
+        🎯 Sliding Window
+        🎯 Prefix sum
+        🎯 Kadane's Algo 
+
+📚Go
+
+    1. Complete the command code ✅ 
+
+    2. Learn more about :-
+        🎯 json file ✅
+        🎯 how json file is storing data ✅ 
+        🎯 load and save functions ✅
+        🎯 how json file is being read ✅
+
+    3. Add one additional field in the todo app called EstimatedTimeOfCompletion ✅
+
+    ============================================
+
+Day 5 of #100DaysOfCode 🚀
+    
+✅ LeetCode 3814: Maximum Capacity Within Budget
+    
+📚 Theory:Binary Search (Iterative & Recursive)
+    
+Check out my code here:🔗 https://github.com/Harshit-Agarwal-2022/CPP#cpp
+    
+#LeetCode #DSA 
