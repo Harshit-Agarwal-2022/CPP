@@ -1,11 +1,6 @@
 📚DSA
 
-    1. problem 3814 (1 hr)
-        🎯 Binary Search ✅
-        🎯 understand Dry run of code and how algo is working ✅
-        🎯 submit code ✅
-
-    2. Revise below patterns (2-3 hrs)
+    1️⃣ Revise below patterns (2-3 hrs)
         🎯 Two pointers
         🎯 Sliding Window
         🎯 Prefix sum
@@ -13,24 +8,17 @@
 
 📚Go
 
-    1. Complete the command code ✅ 
-
-    2. Learn more about :-
-        🎯 json file ✅
-        🎯 how json file is storing data ✅ 
-        🎯 load and save functions ✅
-        🎯 how json file is being read ✅
-
-    3. Add one additional field in the todo app called EstimatedTimeOfCompletion ✅
+    1️⃣ add -help function in To-do-cli
+    2️⃣ add a readme.md file to To-do-cli
+    3️⃣ work on weather cli app 
 
     ============================================
 
-Day 5 of #100DaysOfCode 🚀
-    
-✅ LeetCode 3814: Maximum Capacity Within Budget
-    
-📚 Theory:Binary Search (Iterative & Recursive)
-    
+Day 6 of #100DaysOfCode 🚀
+
+Today's Leetcode:
+✅ LeetCode 704: Maximum Capacity Within Budget
+        
 Check out my code here:🔗 https://github.com/Harshit-Agarwal-2022/CPP#cpp
     
 #LeetCode #DSA 
