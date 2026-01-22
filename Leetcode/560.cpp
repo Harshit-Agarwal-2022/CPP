@@ -36,5 +36,5 @@ int main()
     int k = 2;
 
     Solution sol;
-    cout<<sol.subarraySum(v1,k);
+    cout<<sol.subarraySum(v1,k)<<endl;
 }

@@ -8,17 +8,16 @@
 
 📚Go
 
-    1️⃣ add -help function in To-do-cli
-    2️⃣ add a readme.md file to To-do-cli
-    3️⃣ work on weather cli app 
+    1️⃣ work on weather cli app 
 
     ============================================
 
-Day 6 of #100DaysOfCode 🚀
+Day 7 of #100DaysOfCode 🚀
 
-Today's Leetcode:
-✅ LeetCode 704: Maximum Capacity Within Budget
+Today's @LeetCode 💻:
+
+✅ 304. Range Sum Query 2D - Immutable
         
-Check out my code here:🔗 https://github.com/Harshit-Agarwal-2022/CPP#cpp
+Check out my code here:🔗 https://github.com/Harshit-Agarwal-2022/CPP
     
 #LeetCode #DSA 
