@@ -12,11 +12,11 @@
 
     ============================================
 
-Day 7 of #100DaysOfCode 🚀
+Day 8 of #100DaysOfCode 🚀
 
 Today's @LeetCode 💻:
 
-✅ 304. Range Sum Query 2D - Immutable
+✅ 523. Continuous Subarray Sum 
         
 Check out my code here:🔗 https://github.com/Harshit-Agarwal-2022/CPP
     
