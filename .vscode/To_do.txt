@@ -10,13 +10,13 @@
 
     1️⃣ work on weather cli app 
 
-    ============================================
+============================================
 
-Day 8 of #100DaysOfCode 🚀
+Day 9 of #100DaysOfCode 🚀
 
 Today's @LeetCode 💻:
 
-✅ 523. Continuous Subarray Sum 
+✅ 1588. Sum of All Odd Length Subarrays 
         
 Check out my code here:🔗 https://github.com/Harshit-Agarwal-2022/CPP
     
