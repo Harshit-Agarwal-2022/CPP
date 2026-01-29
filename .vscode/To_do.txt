@@ -1,6 +1,6 @@
 📚DSA
 
-    1️⃣ Revise below patterns (2-3 hrs)
+    1️⃣ Revise below patterns 
         🎯 Two pointers
         🎯 Sliding Window
         🎯 Prefix sum
@@ -12,11 +12,13 @@
 
 ============================================
 
-Day 9 of #100DaysOfCode 🚀
+Day 10 of #100DaysOfCode 🚀
+
+Missed a few days due to weekend but back at it today.
 
 Today's @LeetCode 💻:
 
-✅ 1588. Sum of All Odd Length Subarrays 
+✅ 523. Continuous Subarray Sum 
         
 Check out my code here:🔗 https://github.com/Harshit-Agarwal-2022/CPP
     
