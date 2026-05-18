@@ -2,7 +2,7 @@
 /*
 IMPORTANT NOTES
 
-1. Array of vectors => 2d array with variable row size
+1. Array of vectors => 2d array with variable column size
 
 2. Vector of vectors => 2d array with variable column and row size
 

@@ -2,39 +2,52 @@
 
 using namespace std;
 
-void PrintMap(map<int,int> &m1)
+void printMap(map<int,string> &m)
 {
-    for(auto pr: m1)
+    for(auto &it : m)
     {
-        cout<<pr.first<<" "<<pr.second<<endl;
+        cout<<it.first<<" "<<it.second;
+        cout<<endl;
     }
+    cout<<endl;
 }
+
+
 
 int main()
 {
-    map<int,int> m1;
+
+    map<int,string> m1;
+
+    m1[3] = "abc"; // (O(logn))
+    m1[5] = "def";
+    m1[9] = "ghi";
+    m1[7] = "jkl";
+    m1[7] = "jkl";
+    m1[7] = "jkl";
+
     
-    vector<int> v1 = {0,1,0,1,1,1,1,0,1,1,1,1,0,0};
-    
-    for(auto i :v1)
+    // iterating over map usign iterator
+    // map<int,string> :: iterator it;
+    /* for(it = m1.begin(); it!=m1.end(); ++it)
     {
-        m1[i]++;
-    }
-
-    // auto it = m1.find(1);
-            
-    // if(it!=m1.end())
-    // {
-    //     cout<<(*it).first<<" "<<(*it).second<<endl;
-    // }
-    // else{ cout<<"not found"<<endl;}
-
-    PrintMap(m1);
+        cout<<it->first<<" "<<it->second;
+        cout<<endl;
+        } */
+       
+       printMap(m1);
     
-    m1.erase(0);
-    
-    PrintMap(m1);
+     /*   
+       auto it = m1.find(7); //(O(logn))
 
+       if(it!=m1.end()){
+           cout<<it->first<<" "<<it->second;
+           cout<<endl;
+       }
+      */
+       
+       m1.erase(7);
+       printMap(m1);
 
 
     return 0;
