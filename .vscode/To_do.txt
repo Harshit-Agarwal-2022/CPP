@@ -1,7 +1,7 @@
-📚 DSA ⏰ 1 hours
+📚 DSA ⏰ 1 1/2 hours
 
-    1️⃣ Revise luvs Cpp STL playlist (sets and maps)
-    2️⃣ DSA problems for Arrays 2 on neetcode
+    1️⃣ DSA problems for Arrays 2 on neetcode
+    
 
 📚 JS ⏰ 1/2 hour
 

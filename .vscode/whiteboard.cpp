@@ -3,73 +3,85 @@ using namespace std;
 
 void printVector(vector<int> &nums)
 {
-    for (int i : nums)
+    for(int i : nums)
     {
-        cout << i << " ";
+        cout<<i<<" ";
     }
-
-    cout << endl;
+    cout<<endl;
 }
 
-class Solution
-{
+class Solution {
 public:
-    vector<int> twoSum(vector<int> &nums, int target)
-    {
-
+    vector<int> topKFrequent(vector<int>& nums, int k) {
         vector<int> res;
-
-        // M1 O(n^2)
-        /*
-        for(int i = 0;i<nums.size();i++)
-        {
-            for(int j=i+1; j<nums.size();j++)
+        unordered_map<int,int> m1;
+        
+        
+        for(int i : nums)
+        m1[i]++;
+        
+        // M1 O(nlogn)
+        /* vector<pair<int,int>> v1;
+        
+            for(auto it : m1)
             {
-                int sum = nums[i]+nums[j];
-                if(sum ==  target)
-                {
-                    res.push_back(i);
-                    res.push_back(j);
-                    return res;
-                }
-
+                v1.push_back({it.second,it.first});
             }
-        } */
+        
+            sort(v1.begin(), v1.end(), [](auto a, auto b){
+    return a.first > b.first;
+});
 
-        // M2 O(n)
+for(int i =0 ; i<k;i++)
+{
+    res.push_back(v1[i].second);
+    } */
+   
 
-        unordered_map<int, int> m1;
 
-        for (int i = 0; i < nums.size(); i++)
-        {
+//M2 O(n) 
+   int size = nums.size() + 1;
+   
+   vector<vector<int>> buckets(size);
+   
+   
+   for(auto it : m1)
+   {
+       buckets[it.second].push_back(it.first);
+    }
+    
+    
+    for(int i = (buckets.size()-1); i > 0 && k>0; i-- )
+    {
+        if(buckets[i].empty())
+        continue;
 
-            int x = target - nums[i];
-            auto it = m1.find(x);
-            if (it != m1.end())
+            for(int x : buckets[i])
             {
-                res.push_back(i);
-                res.push_back(it->second);
-                return res;
+                if(k<=0)
+                break;
+
+                res.push_back(x);
+                k--;
             }
 
-            m1[nums[i]] = i;
         }
 
         return res;
+       
     }
 };
 
 int main()
 {
-
-    vector<int> v = {2, 7, 11, 15};
-    int target = 9;
-
+    
+    vector<int> nums = {1,2,1,2,1,2,3,1,3,2};
+    int k = 2;
+    
     Solution sol;
+    vector<int> res = sol.topKFrequent(nums,k);
 
-    vector<int> ans = sol.twoSum(v, target);
-
-    printVector(ans);
+    printVector(res);
 
     return 0;
 }
