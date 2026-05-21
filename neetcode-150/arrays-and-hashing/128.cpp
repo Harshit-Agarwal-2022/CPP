@@ -29,24 +29,26 @@ void printVectorOfString(vector<vector<string>> &v)
     cout << endl;
 }
 
-class Solution {
+class Solution
+{
 public:
-    int longestConsecutive(vector<int>& nums) {
+    int longestConsecutive(vector<int> &nums)
+    {
 
         int res = 0;
-        
-        if(nums.empty())
-        return 0;
+
+        if (nums.empty())
+            return 0;
 
         // M1 O(nlogn)
 
-        /* 
-        
-        
+        /*
+
+
         sort(nums.begin(),nums.end());
 
         int curMax = 1;
-        
+
         for(int i = 0 ; i < nums.size() ; ++i)
         {
             if(i+1<nums.size() && nums[i+1] == nums[i])
@@ -66,30 +68,27 @@ public:
 
         // M2 O(n)
 
-        unordered_set<int> s(nums.begin(),nums.end());
+        unordered_set<int> s(nums.begin(), nums.end());
 
         int curNum = INT_MIN;
-        
-        for(int num : s)
+
+        for (int num : s)
         {
             int curMax = 1;
 
-            if(s.find(num-1)== s.end())
+            if (s.find(num - 1) == s.end())
             {
                 curNum = num;
 
-
-                while(s.find(curNum+1)!=s.end())
+                while (s.find(curNum + 1) != s.end())
                 {
                     curMax++;
                     curNum++;
-
                 }
 
-                res = max(curMax,res);
+                res = max(curMax, res);
             }
         }
-
 
         return res;
     }
@@ -98,12 +97,11 @@ public:
 int main()
 {
 
-    vector<int> nums = {1,0,1,2};
+    vector<int> nums = {1, 0, 1, 2};
 
     Solution sol;
 
-    cout<<sol.longestConsecutive(nums);
-
+    cout << sol.longestConsecutive(nums);
 
     return 0;
 }
