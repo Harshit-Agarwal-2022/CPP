@@ -10,19 +10,7 @@ int Sum(int* a , int b)
 
 int main()
 {
-    int a = 10;
-
-    int b = 20;
-
-    int *ptrA;
-
-    ptrA = &a;
-
-    ptrA = &b;
-
-    cout<<ptrA;
-
-    // cout<< Sum(ptrA, 20);
+    cout<<'8'-'0' + 10;
 
     return 0;
 }

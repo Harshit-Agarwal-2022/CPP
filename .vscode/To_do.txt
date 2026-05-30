@@ -1,26 +1,22 @@
-📚 Cohort ⏰ 2 hours
+📚 Cohort ⏰ 30 minutes
 
     1️⃣ conitue with webdev lectures 
 
-👩‍💻 Hospital website ⏰ 2.5 hours
+🎓 US Applications ⏰ 15 minutes
 
-    1️⃣ start vibe coding a website for hospital
+    1️⃣ Fill analysis sheet on mim dashboard 
 
-🎓 US Applications
-
-    1️⃣ share secondary resume and ask for a short profile review along with job prospect in agri engineering ✅
-
-    2️⃣ provide details to counsellor ✅
-
-    3️⃣ Fill analysis sheet on mim dashboard
-
-    4️⃣ research universities from the list and others as well 
+    2️⃣ add all available documents 
 
 
-📚 DSA ⏰ 1 1/2 hours
+📚 DSA ⏰ 30 minutes
 
     1️⃣ DSA problems for Arrays 2 on neetcode
 
+
+👩‍💻 Clinic website ⏰ 1 hour 
+
+    1️⃣ Ask for hospital photos and add it to the webpage
 
 
 📚 Job application ⏰ 1/2 hour
